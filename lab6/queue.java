@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class queue {
     public static void main(String args[]){
         Scanner val=new Scanner(System.in);
-        MyQueue q=new MyQueue(10);
+        QueueOperations q=new MyQueue(10);
         char ch;
         System.out.println("STATIC QUEUE SIZE:10\n");
         do
